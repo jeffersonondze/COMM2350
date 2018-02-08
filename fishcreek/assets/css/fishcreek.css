@@ -1,0 +1,49 @@
+/*Assigment CSS
+
+&& = My OWN CSS DON'T COPY UNLESS YOU WANT TO */
+body {
+		font-family: Verdana, Arial, sans-serif;
+		margin: 0 auto;/* && */
+		padding: 0; /* && */
+		width: 80vw;/* && */
+		background-color: #6699ff;
+		color: #d5e3ff;
+	}
+	header{
+		background-color: inherit;
+		color: #003366;
+		font-family: serif;
+	}
+
+	h1 {
+		line-height: 200%;
+	}
+	nav {
+		font-weight: bold;
+	}
+	footer {
+		font-size: 0.70em;
+		font-style: italic;
+	}
+	.category {
+		background-color: inherit;
+		color: #003366;
+	}
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	/*My own CSS, not part of assignment {DONT COPY UNLESS YOU WANT TO} */
+	nav, .nav_list {
+		padding: 0;
+		margin: 0;
+	}
+	.nav_list li {
+		display: inline-block;
+		list-style-type: none;
+		padding: 5px;
+	}
+	a {
+		text-decoration: none;
+	}
